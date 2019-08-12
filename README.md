@@ -1,2 +1,2 @@
-# STRA-Net
-STRA-Net
+# STRAL
+STRAL
