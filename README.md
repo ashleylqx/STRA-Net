@@ -115,7 +115,7 @@ If you use our code in your research work, please consider citing the following 
     year={2019}, 
     }
 
-##Contact
+## Contact
 
 Qiuxia Lai: <qxlai@cse.cuhk.edu.hk> or <ashleylqx@gmail.com>
 
