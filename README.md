@@ -20,7 +20,7 @@ Baidu Disk: <https://pan.baidu.com/s/1wvTtHuL5ra7umsG9_dICig>  password:dizw
 
 ## Preparation
 ### Generate optical flows
-The optical flows are generated using [flownet-2.0](https://github.com/lmb-freiburg/flownet2 "flownet2"). The '**.flo**' files in the '**\flow**' folders under the video directory. Please be noted that the optical flow files may take up a considerable amout of storage space. The dataset directory is as follows: 
+The optical flows are generated using [flownet-2.0](https://github.com/lmb-freiburg/flownet2 "flownet2"). The '**.flo**' files in the '**/flow**' folders under the video directory. Please be noted that the optical flow files may take up a considerable amout of storage space. The dataset directory is as follows: 
     
         DataSets
         |----DHF1K
@@ -51,7 +51,7 @@ Google Drive: <https://drive.google.com/file/d/14EgtXJboEnrM19aL5i9gGPNKbus8790_
 
 Baidu Disk: <https://pan.baidu.com/s/1jmRNufO_IXxJX4D0LKxTaQ>  password:pqil
 
-The testing weights `U_td3_res_ds.h5` and `UHD_dcross_res_matt_res.h5` are put into '**\vap_model**' by default. The initialization weights `A_resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5` and `M_resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5` are put into '**\weights**' by default.
+The testing weights `U_td3_res_ds.h5` and `UHD_dcross_res_matt_res.h5` are put into '**/vap_model**' by default. The initialization weights `A_resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5` and `M_resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5` are put into '**/weights**' by default.
 
 ### Modify corresponding directories
 Please modify the `config.py` accordingly.
@@ -60,7 +60,7 @@ Please modify the `config.py` accordingly.
 ## Testing
 
 1.Easy testing: run `demo_test.py` to get result from one video by default. 
-A video test example from **UCF sports** can be found in the **/DataSets** folder. The results would be stored in '**\vap_predictions**' by default.
+A video test example from **UCF sports** can be found in the **/DataSets** folder. The results would be stored in '**/vap_predictions**' by default.
 
 2.To get other testing results, prepare the datasets with optical flows, and modify the dataset settings in `config.py`. Run `demo_test.py`. 
 You may also run `demo.py` after editing the `config.py` with `model_no = 0 or 1` and `phase = 'vis'`， where `0` is for the feature net, and `1` is for the whole model.
