@@ -78,17 +78,17 @@ In case that you do not want to train from the feature net, you may directly use
 
 1.Train the feature net
 
-1) In `config.py`, set `model_no = 0` and `phase = 'train'`
+1)In `config.py`, set `model_no = 0` and `phase = 'train'`
 
-2) Run `demo.py`
+2)Run `demo.py`
 
 2.Train the whole net
 
-1) In `config.py`, set `model_no = 1` and `phase = 'train'`
+1)In `config.py`, set `model_no = 1` and `phase = 'train'`
 
-2) Modify the initilization weight of the feature net in `demo.py` to the one you obtained in step 1, or leave it as the default one that you've downloaded.
+2)Modify the initilization weight of the feature net in `demo.py` to the one you obtained in step 1, or leave it as the default one that you've downloaded.
 
-3) Run `demo.py`
+3)Run `demo.py`
 
 
 ## Citation
