@@ -71,7 +71,6 @@ You may also run `demo.py` after editing the `config.py` with `model_no = 0 or 1
 
 ## Training
 
-### Start training
 Our model is trained in tendem. To train the feature net, we initialize it with the weight of resnet-50 pretrained on the ImageNet. Then, we initialize the feature net with the weight in the first step, randomly initialize the remaining part, and train the whole network.
 
 In case that you do not want to train from the feature net, you may directly use the provided weight `U\_td3\_res_ds.h5`, and begin from step 2.
