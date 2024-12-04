@@ -47,9 +47,9 @@ For **Holloyood-2**, we further seperate the video sequences into shots accordin
 For more information about **DHF1K**, click [here](https://github.com/wenguanwang/DHF1K "dhf1k"). See **DHF1K leaderboard** [here](https://mmcheng.net/videosal/ "dhf1k_lb")
 
 ### Download weights for testing or initialization of training
-Google Drive: <https://drive.google.com/file/d/14EgtXJboEnrM19aL5i9gGPNKbus8790_/view?usp=sharing>
+Google Drive: [This link.](https://drive.google.com/drive/folders/1-xE3XIlJ5cdufqb1e90F3PwwhmzaMYyo)
 
-Baidu Disk: <https://pan.baidu.com/s/1jmRNufO_IXxJX4D0LKxTaQ>  password:pqil
+Baidu Disk: [This link.](https://pan.baidu.com/s/1jmRNufO_IXxJX4D0LKxTaQ)  password:pqil
 
 The testing weights `U_td3_res_ds.h5` and `UHD_dcross_res_matt_res.h5` are put into '**/vap_model**' by default. The initialization weights `A_resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5` and `M_resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5` are put into '**/weights**' by default.
 
