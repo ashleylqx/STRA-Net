@@ -1,7 +1,7 @@
 # STRA-Net
 This repository is the implementation of **'Video Saliency Prediction using Spatiotemporal Residual Attentive Networks (TIP2019)'**.
 
-Qiuxia Lai, [Wenguan Wang](https://sites.google.com/view/wenguanwang "wwg"), [Hanqiu Sun](http://www.cse.cuhk.edu.hk/~hanqiu/ "sunny"), Jianbing Shen
+[Qiuxia Lai](https://ashleylqx.github.io/), [Wenguan Wang](https://sites.google.com/view/wenguanwang "wwg"), [Hanqiu Sun](http://www.cse.cuhk.edu.hk/~hanqiu/ "sunny"), Jianbing Shen
 
 ## Environment
 - CentOS-7
@@ -14,7 +14,7 @@ Qiuxia Lai, [Wenguan Wang](https://sites.google.com/view/wenguanwang "wwg"), [Ha
 ## Results Download
 Prediction results on **DHF1K**, **Hollywood-2**, **UCF sports**, and **DIEM** can be downloaded from:
 
-Google Drive: <https://drive.google.com/file/d/1VmXVJ5H8y3-uihDrr1yTVPZBNIE0eoOW/view?usp=sharing>
+Google Drive: <https://drive.google.com/drive/folders/1-xE3XIlJ5cdufqb1e90F3PwwhmzaMYyo?usp=sharing>
 
 Baidu Disk: <https://pan.baidu.com/s/1wvTtHuL5ra7umsG9_dICig>  password:dizw
 
