@@ -14,7 +14,7 @@ This repository is the implementation of **'Video Saliency Prediction using Spat
 ## Results Download
 Prediction results on **DHF1K**, **Hollywood-2**, **UCF sports**, and **DIEM** can be downloaded from:
 
-Google Drive: [This link](https://drive.google.com/drive/folders/1-xE3XIlJ5cdufqb1e90F3PwwhmzaMYyo?usp=sharing)
+Google Drive: Pending ...
 
 Baidu Disk: [This link](https://pan.baidu.com/s/1wvTtHuL5ra7umsG9_dICig)  password:dizw
 
